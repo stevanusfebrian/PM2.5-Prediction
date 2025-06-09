@@ -12,15 +12,23 @@ xmlns="http://www.w3.org/TR/REC-html40">
 href="2024%20-%20Indeks%20Standar%20Pencemar%20Udara%20(ISPU)%20Jan-Dec_files/filelist.xml">
 <![if !supportTabStrip]>
 <link id="shLink" href="2024%20-%20Indeks%20Standar%20Pencemar%20Udara%20(ISPU)%20Jan-Dec_files/sheet001.htm">
+<link id="shLink" href="2024%20-%20Indeks%20Standar%20Pencemar%20Udara%20(ISPU)%20Jan-Dec_files/sheet002.htm">
+<link id="shLink" href="2024%20-%20Indeks%20Standar%20Pencemar%20Udara%20(ISPU)%20Jan-Dec_files/sheet003.htm">
+<link id="shLink" href="2024%20-%20Indeks%20Standar%20Pencemar%20Udara%20(ISPU)%20Jan-Dec_files/sheet004.htm">
+<link id="shLink" href="2024%20-%20Indeks%20Standar%20Pencemar%20Udara%20(ISPU)%20Jan-Dec_files/sheet005.htm">
 
 <link id="shLink">
 
 <script language="JavaScript">
 <!--
- var c_lTabs=1;
+ var c_lTabs=5;
 
  var c_rgszSh=new Array(c_lTabs);
- c_rgszSh[0] = "Sheet1";
+ c_rgszSh[0] = "2024 - Indeks Standar Pence (2)";
+ c_rgszSh[1] = "Sheet1";
+ c_rgszSh[2] = "2024 - Indeks Standar Pencemar ";
+ c_rgszSh[3] = "so2 &amp; no2 tinggi";
+ c_rgszSh[4] = "Sheet2";
 
 
 
@@ -50,7 +58,7 @@ function fnGetIEVer()
 function fnBuildFrameset()
 {
  var szHTML="<frameset rows=\"*,18\" border=0 width=0 frameborder=no framespacing=0>"+
-  "<frame src=\""+document.all.item("shLink")[0].href+"\" name=\"frSheet\" noresize>"+
+  "<frame src=\""+document.all.item("shLink")[3].href+"\" name=\"frSheet\" noresize>"+
   "<frameset cols=\"54,*\" border=0 width=0 frameborder=no framespacing=0>"+
   "<frame src=\"\" name=\"frScroll\" marginwidth=0 marginheight=0 scrolling=no>"+
   "<frame src=\"\" name=\"frTabs\" marginwidth=0 marginheight=0 scrolling=no>"+
@@ -298,17 +306,39 @@ function fnSetActiveSheet(iSh)
  <x:ExcelWorkbook>
   <x:ExcelWorksheets>
    <x:ExcelWorksheet>
-    <x:Name>Sheet1</x:Name>
+    <x:Name>2024 - Indeks Standar Pence (2)</x:Name>
     <x:WorksheetSource
      HRef="2024%20-%20Indeks%20Standar%20Pencemar%20Udara%20(ISPU)%20Jan-Dec_files/sheet001.htm"/>
+   </x:ExcelWorksheet>
+   <x:ExcelWorksheet>
+    <x:Name>Sheet1</x:Name>
+    <x:WorksheetSource
+     HRef="2024%20-%20Indeks%20Standar%20Pencemar%20Udara%20(ISPU)%20Jan-Dec_files/sheet002.htm"/>
+   </x:ExcelWorksheet>
+   <x:ExcelWorksheet>
+    <x:Name>2024 - Indeks Standar Pencemar </x:Name>
+    <x:WorksheetSource
+     HRef="2024%20-%20Indeks%20Standar%20Pencemar%20Udara%20(ISPU)%20Jan-Dec_files/sheet003.htm"/>
+   </x:ExcelWorksheet>
+   <x:ExcelWorksheet>
+    <x:Name>so2 &amp; no2 tinggi</x:Name>
+    <x:WorksheetSource
+     HRef="2024%20-%20Indeks%20Standar%20Pencemar%20Udara%20(ISPU)%20Jan-Dec_files/sheet004.htm"/>
+   </x:ExcelWorksheet>
+   <x:ExcelWorksheet>
+    <x:Name>Sheet2</x:Name>
+    <x:WorksheetSource
+     HRef="2024%20-%20Indeks%20Standar%20Pencemar%20Udara%20(ISPU)%20Jan-Dec_files/sheet005.htm"/>
    </x:ExcelWorksheet>
   </x:ExcelWorksheets>
   <x:Stylesheet
    HRef="2024%20-%20Indeks%20Standar%20Pencemar%20Udara%20(ISPU)%20Jan-Dec_files/stylesheet.css"/>
-  <x:WindowHeight>12045</x:WindowHeight>
+  <x:WindowHeight>11865</x:WindowHeight>
   <x:WindowWidth>28800</x:WindowWidth>
   <x:WindowTopX>32767</x:WindowTopX>
   <x:WindowTopY>32767</x:WindowTopY>
+  <x:ActiveSheet>3</x:ActiveSheet>
+  <x:FirstVisibleSheet>1</x:FirstVisibleSheet>
   <x:ProtectStructure>False</x:ProtectStructure>
   <x:ProtectWindows>False</x:ProtectWindows>
  </x:ExcelWorkbook>
@@ -316,7 +346,7 @@ function fnSetActiveSheet(iSh)
 </head>
 
 <frameset rows="*,39" border=0 width=0 frameborder=no framespacing=0>
- <frame src="2024%20-%20Indeks%20Standar%20Pencemar%20Udara%20(ISPU)%20Jan-Dec_files/sheet001.htm" name="frSheet">
+ <frame src="2024%20-%20Indeks%20Standar%20Pencemar%20Udara%20(ISPU)%20Jan-Dec_files/sheet004.htm" name="frSheet">
  <frame src="2024%20-%20Indeks%20Standar%20Pencemar%20Udara%20(ISPU)%20Jan-Dec_files/tabstrip.htm" name="frTabs" marginwidth=0 marginheight=0>
  <noframes>
   <body>
